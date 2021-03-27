@@ -245,3 +245,14 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+html{
+  background: lightgray;
+}
+footer{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+opacity: 0.9;
+}
+#main-section{
+  background-image: url("../../img/bg-clouds.jpg");
+}
