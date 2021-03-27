@@ -32,9 +32,19 @@
     </header>
 
     {# main section #}
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main class="container-fluid mh-100 " id="main-section"{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
       {{ content | safe }}
+        <div class="d-flex justify-content-center w-100 p-3"> 
+          <div class="card " style="width: 18rem;">
+            <img src="../../img/JAMstack-Card.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">JAMSTACK</h5>
+                  <p class="card-text">Jamstack is an architecture designed to make the web faster, more secure, and easier to scale. It builds on many of the tools and workflows which developers love, and which bring maximum productivity.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+          </div>
+        </div>
     </main>
 
     {# footer #}
