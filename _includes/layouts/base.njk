@@ -12,8 +12,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    {# for font awsome icons #}
+    <script src="https://kit.fontawesome.com/784e0355cc.js" crossorigin="anonymous"></script>
   </head>
   <body>
+   {# header section #}
     <header>
     <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
       <nav class="navbar navbar-light bg-light">
@@ -26,19 +29,19 @@
       {%- endfor %}
         </div>
       </nav>
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      
-     
-  
     </header>
 
+    {# main section #}
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
       {{ content | safe }}
     </main>
 
-    <footer></footer>
-
-    <!-- Current page: {{ page.url | url }} -->
+    {# footer #}
+    <footer class="navbar fixed-bottom">
+                <i class="fas fa-envelope-open-text"> - alimasWebDeveloper@gmail.com</i>
+                <i class="fas fa-phone-volume"> - +447434628622</i>
+         <p>Current page: {{ page.url | url }} </p>
+    </footer>
   </body>
 </html>
