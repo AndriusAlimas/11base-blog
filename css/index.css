@@ -256,3 +256,15 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
   background-size: cover;
   
 }
+
+/* my form style */
+#form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#902f2f;
+  max-height: 60vh;
+  max-width: 70vw;
+  margin-top: 20vh;
+}
