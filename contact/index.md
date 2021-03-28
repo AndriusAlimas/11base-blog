@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 4
 ---
    <h1 class="text-center">My Netlify Form</h1>
-<div class="d-flex justify-content-center mx-auto" >
+<div class="d-flex justify-content-center mx-auto mh-100m" >
   <form  name="contact" method="POST" data-netlify="true">
   <p>
     <label for="name">Your Name: <input type="text" name="name" id="name" required /></label>   

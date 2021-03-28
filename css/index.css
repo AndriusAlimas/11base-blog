@@ -253,6 +253,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 /* my style */
 #main-section{
   background-image: url('../../img/bg-clouds.jpg');
+  background-size: cover;
 }
 .container{
   display:flex;
