@@ -3,3 +3,34 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 {{ content | safe }}
+ {# main section flexbox container #}
+        <div class="d-flex justify-content-around w-100 p-3"> 
+        {# card JAMSTACK #}
+          <div class="card " style="width: 18rem;">
+            <img src="../../img/JAMstack-Card.png" class="card-img-top" alt="showing picture og JAMSTACK structure">
+                <div class="card-body">
+                  <h5 class="card-title">JAMSTACK</h5>
+                  <p class="card-text">Jamstack is an architecture designed to make the web faster, more secure, and easier to scale. It builds on many of the tools and workflows which developers love, and which bring maximum productivity.</p>
+                  <a href="https://jamstack.org/" class="btn btn-primary">Go To JAMSTACK</a>
+                </div>
+          </div>
+          {# card Java vs JS #}
+          <div class="card " style="width: 18rem;">
+            <img src="../../img/jsvsjava.png" class="card-img-top" alt="showing picture java vs javascript">
+                <div class="card-body">
+                  <h5 class="card-title">Java VS JavaScript</h5>
+                  <p class="card-text">Java and Javascript, both may sound similar to one’s ears because of the word ‘Java’ common in both of them, but these two are nothing alike. Although both Java and Javascript are used for developing web and mobile applications, among other things, there are really important differences between Java vs JavaScript. In this article, we shall study the differences between Java and Javascript, and also see how they are similar in any way.</p>
+                  <a href="https://hackr.io/blog/java-vs-javascript" class="btn btn-primary">Read More</a>
+                </div>
+          </div>
+
+          {# card Bootstrap #}
+          <div class="card " style="width: 18rem;">
+            <img src="../../img/bootstrap.png" class="card-img-top" alt="showing picture of bootstrap b letter">
+                <div class="card-body">
+                  <h5 class="card-title">What is Bootstrap</h5>
+                  <p class="card-text"></p>
+                  <a href="https://getbootstrap.com/" class="btn btn-primary">Get Bootstrap</a>
+                </div>
+          </div>
+        </div>
